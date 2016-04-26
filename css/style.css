@@ -1,0 +1,60 @@
+
+@media print{
+    html{height:400px;}
+    body{height:400px;}
+    #header{display:none;}
+    a{display:none;}
+}
+
+html{
+    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%; 
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.ingenico{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+}
+
+.center{
+	max-width:320px;
+	text-align: center;
+    position: relative;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    
+}
+
+header{
+    max-width:320px;
+}
+
+a{
+    font-size: 20px;
+}
+.spin{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.bottom{
+    bottom:0;
+    position:absolute;
+}
