@@ -8,16 +8,26 @@
 <script src="js/service.js"></script>
 </head>
 <body class="noselect">
+       
 <!-- Header -->
 <header class="w3-container w3-red">
-  <h1>Satispay</h1>
+  <h3><span class="w3-opennav w3-xlarge" id="open"><img src="img/menu.png"></span> Satispay</h3>
 </header>
 <!-- fine Header -->
+
+ <nav id="menu" class="w3-sidenav w3-white w3-card-2 w3-animate-left">
+  <a href="#" id="close" class="w3-closenav w3-large">Close &times;</a>		
+  <a href="#" id="a4">Storico</a>		
+  <a href="#">Opzioni</a>
+</nav>
+
+
 <!--Home-->
 <div id="page0" class="center">
     <div class="w3-row">
-    <img src="img/satispay.png"class="logo"/>
-    <img src="img/html.png" class="ingenico"/><br>
+    <img src="img/html.png" class="logo"/><br>
+    <img src="img/satispay.png"class="ingenico"/>
+    
     </div><br/>
     <div class="w3-row">
     <a class="w3-btn-block w3-red" id="a1">Ricevi Denaro</a>
@@ -62,8 +72,10 @@
 <!--Wait-->
 <div id="page99" class="center">
     <div class="w3-row">
-    <img src="img/satispay.png"class="logo"/>
     <img src="img/html.png" class="ingenico"/><br>
+    </div><br/>
+    <div class="w3-row">
+    <a class="w3-btn-block w3-red" id="a98">Stampa</a>
     </div><br/>
      <div class="w3-row">
     <a class="w3-btn-block w3-red" id="a99">Indietro</a>
@@ -71,6 +83,24 @@
     </div>
 </div>
 <!--fine Wait-->
+<!--Ticket-->
+<div id="page98" class="center">
+    <div class="w3-row">
+    <img src="img/html.png" class="logo"/><br>
+    </div><br/>
+    <div class="w3-row">
+        <p>Ingenico Italia <br> Via G.Stephenson 43/A <br> 20157 Milano <br> www.ingenico.it <br> P.IVA: 13263320155<br>
+        DATA: 26/04/2016 13.50<br>
+        UTENTE: Test</br>
+        <br>
+        IMPORTO &euro; 1.85</p>
+    </div><br/>
+     <div class="w3-row">
+     <a class="w3-btn-block w3-red" id="a97">Indietro</a>
+    </div><br/>
+    </div>
+</div>
+<!--fine Ticket-->
 
 
 </body>

@@ -1,10 +1,22 @@
 
 @media print{
+   
     html{height:400px;}
     body{height:400px;}
-    #header{display:none;}
+    header{display:none;}
     a{display:none;}
+    p{font-size: 20px;}
+    #a97{display:none;};
+    
+    
 }
+
+ @font-face {
+  font-family: "Verdana";
+  src: url("verdana.ttf");
+  font-size:15px;
+  line-height:1.5
+  }
 
 html{
     font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%; 
