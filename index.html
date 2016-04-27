@@ -11,14 +11,14 @@
        
 <!-- Header -->
 <header class="w3-container w3-red">
-  <h3><span class="w3-opennav w3-xlarge" id="open"><img src="img/menu.png"></span> Satispay</h3>
+  <h3><span class="w3-opennav w3-xlarge" id="open"><img src="img/menu.png">  Satispay</span> </h3>
 </header>
 <!-- fine Header -->
 
  <nav id="menu" class="w3-sidenav w3-white w3-card-2 w3-animate-left">
   <a href="#" id="close" class="w3-closenav w3-large">Close &times;</a>		
-  <a href="#" id="a4">Storico</a>		
-  <a href="#">Opzioni</a>
+  <a href="#" id="a4"></a>		
+  <a href="#" id="a5"></a>
 </nav>
 
 
@@ -30,10 +30,10 @@
     
     </div><br/>
     <div class="w3-row">
-    <a class="w3-btn-block w3-red" id="a1">Ricevi Denaro</a>
+    <a class="w3-btn-block w3-red" id="a1"></a>
     </div><br/>
     <div class="w3-row">
-    <a class="w3-btn-block w3-red" id="a2">Storico Pagamenti</a>
+    <a class="w3-btn-block w3-red" id="a2"></a>
     </div>
 </div>
 <!--fine Home-->
@@ -78,7 +78,7 @@
     <a class="w3-btn-block w3-red" id="a98">Stampa</a>
     </div><br/>
      <div class="w3-row">
-    <a class="w3-btn-block w3-red" id="a99">Indietro</a>
+    <a class="w3-btn-block w3-red" id="a99"></a>
     </div><br/>
     </div>
 </div>
@@ -89,18 +89,33 @@
     <img src="img/html.png" class="logo"/><br>
     </div><br/>
     <div class="w3-row">
-        <p>Ingenico Italia <br> Via G.Stephenson 43/A <br> 20157 Milano <br> www.ingenico.it <br> P.IVA: 13263320155<br>
-        DATA: 26/04/2016 13.50<br>
-        UTENTE: Test</br>
-        <br>
-        IMPORTO &euro; 1.85</p>
+       <p id="risultato"></p>
     </div><br/>
      <div class="w3-row">
-     <a class="w3-btn-block w3-red" id="a97">Indietro</a>
+     <a class="w3-btn-block w3-red" id="a97"></a>
     </div><br/>
     </div>
 </div>
 <!--fine Ticket-->
-
+<!-- Opzioni (cambio Lingua) -->
+<div id="page2" class="center">
+    <div class="w3-row">
+    <img src="img/html.png" class="logo"/><br>
+    </div><br/>
+    <p id="op1"></p>
+    <form class="w3-container" id="language">
+            <p>
+            <input class="w3-radio" type="radio" name="language" value="it" id="lnit" >
+            <label class="w3-validate">Italiano</label></p>
+            <p>
+            <input class="w3-radio" type="radio" name="language" value="en" id="lnen" checked>
+            <label class="w3-validate">English</label>
+            </p>
+    </form>
+     <div class="w3-row">
+     <a class="w3-btn-block w3-red" id="a6"></a>
+    </div><br/>
+    </div>
+</div>
 
 </body>
