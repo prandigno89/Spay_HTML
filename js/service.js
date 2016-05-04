@@ -16,7 +16,7 @@ $(
 		var close=$('#close');
 		var open=$('#open');
 		
-		//variabili della lingua
+		//variabili per setting lingua
 		var it = $('#lnit');
 		var en = $('#lnen');
 		
