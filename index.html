@@ -69,20 +69,31 @@
     </div>
 </div>
 <!--fine Reportistica-->
-<!--Wait-->
+<!--Transazioni lista-->
 <div id="page99" class="center">
     <div class="w3-row">
-    <img src="img/html.png" class="ingenico"/><br>
+     <ul class="w3-ul"><!-- w3-card-4-->
+     <li><h2>Pending Transaction:</h2></li>
+        <li class="w3-padding-16">
+            <a id="trx1" data-transaction="transaction1">
+            <img src="img/img_avatar2.png" class="w3-left w3-circle avatar">
+            <span class="w3-xlarge">Stefano P.</span><br>
+            <span>0,01 &euro;</span>
+            </a>        
+        </li>
+      </ul>
+        
     </div><br/>
     <div class="w3-row">
-    <a class="w3-btn-block w3-red" id="a98">Stampa</a>
+    <!--<a class="w3-btn-block w3-red" id="a98">Stampa</a>-->
     </div><br/>
      <div class="w3-row">
+         <br><br><br><br><br><br>
     <a class="w3-btn-block w3-red" id="a99"></a>
     </div><br/>
     </div>
 </div>
-<!--fine Wait-->
+<!--fine Transazioni-->
 <!--Ticket-->
 <div id="page98" class="center">
     <div class="w3-row">
@@ -117,5 +128,37 @@
     </div><br/>
     </div>
 </div>
+<!-- Pagina conferma pagamento-->
+<div id="page3" class="center">
+    <div class="w3-row">
+    <img src="img/html.png" class="logo"/>
+     </div><br/>
+    <div class="w3-row">
+        <h5>Do you want accept this payment?</h5>
+        <h5>Stefano P. - 0,01 &euro;</h5><br>
+     <a class="w3-btn-block w3-green" id="a7">Accept Payment</a>
+     <br><br>
+     <a class="w3-btn-block w3-red" id="a8">Reject Payment</a>
+      
+    </div>
+    
+</div>
+<!-- fine pagemnto -->
+<!-- Pagina stampa scontrino-->
+<div id="page4" class="center">
+    <div class="w3-row">
+    <img src="img/html.png" class="logo"/>
+     </div>
+    <div class="w3-row">
+        <h5>Transaction Accepted!</h5>
+        <h5>Stefano P. - 0,01 &euro;</h5>
+        <h5>05/06/2016 - 11.45</h5>
+     <h5>Thanks for using <br> Ingenico P2B services</h5>
+     <br>
+     <a class="w3-btn-block w3-red" id="a9">Home</a>
+    </div>
+    
+</div>
+<!-- fine stampa -->
 
 </body>

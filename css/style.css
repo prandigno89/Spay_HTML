@@ -5,10 +5,9 @@
     body{height:400px;}
     header{display:none;}
     a{display:none;}
-    p{font-size: 20px;}
-    #a97{display:none;};
-    
-    
+    h5{font-size: 30px;}
+    #a9{display: none}
+        
 }
 
  @font-face {
@@ -24,6 +23,7 @@ html{
 nav{
     max-height: 420px;
 }
+
 
 .logo{
   display: block;
@@ -74,9 +74,6 @@ a{
     position:absolute;
 }
 
-.miob{
-    width: 100%;
-    height: 50px;
-    background-color: blue;
-    color: white;
+.avatar{
+    width:60px;
 }

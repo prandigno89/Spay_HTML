@@ -9,6 +9,9 @@ $(
 		var a4 = $('#a4');
 		var a5 = $('#a5');
 		var a6 = $('#a6');
+		var a7 = $('#a7');
+		var a8 = $('#a8');
+		var a9 = $('#a9');
 		
 		var a97= $('#a97');
 		var a98= $('#a98');
@@ -28,6 +31,10 @@ $(
 		a4.on('click', function(){ visualizza('#page0','#page1'); $('#menu').hide();});
 		a5.on('click', function(){ visualizza('#page0','#page2'); $('#menu').hide();});
 		a6.on('click', function(){ visualizza('#page2','#page0');});
+		a7.on('click', function(){visualizza('#page3','#page4'); window.print();});
+		a9.on('click', function(){visualizza('#page4','#page0');});
+		
+		
 		a97.on('click', function(){ visualizza('#page98','#page0');});		
 		a98.on('click', function(){getPending();});	
 		a99.on('click', function(){ visualizza('#page99','#page0');});	
@@ -57,6 +64,9 @@ $(
 function initApp(){
 	$('#page1').hide();
 	$('#page2').hide();
+	$('#page3').hide();
+	$('#page4').hide();
+	
 	$('#page99').hide();
 	$('#page98').hide();
 	$('#menu').hide();
@@ -66,6 +76,19 @@ function initApp(){
 	/*SETTING LINGUA ALTERNATIVA*/
         var lang='language/en.json';
 		setLanguage(lang);
+		
+		
+		$('a').on('click', function(){
+				//var clicked = $(this).attr('id');
+				var clicked = $(this);
+				if(clicked.attr('data-transaction')){
+					console.log('nuova transazione avviata');
+					//cambio pagina per accettazione transazione.
+					visualizza('#page99','#page3');
+				}
+					
+					
+		})
 		
 }
 
